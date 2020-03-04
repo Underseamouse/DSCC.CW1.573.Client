@@ -17,7 +17,7 @@
             currentPage: 1,
             categoriesPerPage: 10,
             Categories: null,
-            address: 'https://localhost:44314'
+            address: 'http://ec2-54-175-236-127.compute-1.amazonaws.com'
         };
     }
 
@@ -181,7 +181,7 @@ class Modal extends React.Component {
             price: this.props.data.price,
             quantity: this.props.data.quantity,
             index: this.props.index,
-            address: 'https://localhost:44314'
+            address: 'https://ec2-54-175-236-127.compute-1.amazonaws.com'
         };
     }
 
@@ -262,7 +262,7 @@ class CreateModal extends React.Component {
             id: '',
             categoryID: '',
             categories: null,
-            address: 'https://localhost:44314'
+            address: 'https://ec2-54-175-236-127.compute-1.amazonaws.com'
         };
     }
 
